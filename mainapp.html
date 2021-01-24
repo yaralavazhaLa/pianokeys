@@ -1,20 +1,36 @@
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="pianoStyleSheet.css" rel="stylesheet">
+    <script src="mainscripts.js"> </script>
   </head>
   <body>
   <title>Piano Keys</title>
-  <div class="keyHolder"><span class="firstKey majorKey" id="C">C</span><!--
---><span class="minorKey" id="Cd"></span><!--
---><span class="majorKey">D</span><!--
---><span class="minorKey" id="Dd"></span><!--
---><span class="majorKey">E</span><!--
---><span class="majorKey">F</span><!--
---><span class="minorKey" id="Fd"></span><!--
---><span class="majorKey">G</span><!--
---><span class="minorKey" id="Gd"></span><!--
---><span class="majorKey">A</span><!--
---><span class="minorKey" id="Ad"></span><!--
---><span class="majorKey">B</span></div>
+  <div class="keyHolder">
+<div data-note="C" class="keys majorKey" id="C">C</div>
+<div data-note="Cd" class="keys minorKey" id="Cd"></div>
+<div data-note="D" class="keys majorKey" id="D">D</div>
+<div data-note="Dd" class="keys minorKey" id="Dd"></div>
+<div data-note="E" class="keys majorKey" id="E">E</div>
+<div data-note="F" class="keys majorKey" id="F">F</div>
+<div data-note="Fd" class="keys minorKey" id="Fd"></div>
+<div data-note="G" class="keys majorKey" id="G">G</div>
+<div data-note="Gd" class="keys minorKey" id="Gd"></div>
+<div data-note="A" class="keys majorKey" id="A">A</div>
+<div data-note="Ad" class="keys minorKey" id="Ad"></div>
+<div data-note="B" class="keys majorKey" id="B">B</div>
+</div>
+<audio id="C" src=audiofiles/c3.mp3></audio>
+<audio id="Cd" src=audiofiles/cd3.mp3></audio>
+<audio id="D" src=audiofiles/d3.mp3></audio>
+<audio id="Dd" src=audiofiles/dd3.mp3></audio>
+<audio id="E" src=audiofiles/e3.mp3></audio>
+<audio id="F" src=audiofiles/f3.mp3></audio>
+<audio id="Fd" src=audiofiles/fd3.mp3></audio>
+<audio id="G" src=audiofiles/g3.mp3></audio>
+<audio id="Gd" src=audiofiles/gd3.mp3></audio>
+<audio id="A" src=audiofiles/a3.mp3></audio>
+<audio id="Ad" src=audiofiles/ad3.mp3></audio>
+<audio id="B" src=audiofiles/b3.mp3></audio>
 </body>
 </html>
